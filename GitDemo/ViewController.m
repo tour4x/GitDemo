@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "TestObject.h"
+
 @interface ViewController ()
 
 @end
@@ -19,6 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIView *view = [UIView new];
+    
+    TestObject *object = [TestObject new];
 }
 
 
